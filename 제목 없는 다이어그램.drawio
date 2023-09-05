@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T04:48:20.785Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="de_yfCNF4ibltU0q1AGW" version="21.7.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-05T05:10:25.250Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="EhcXPfhF0E3lVuwvgQUG" version="21.7.2" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -109,12 +109,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WCw_WDPIwAWpa5P9CkKF" name="페이지-2">
-    <mxGraphModel dx="1055" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1074" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-12" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="570" y="360" width="200" height="230" as="geometry" />
+          <mxGeometry x="450" y="370" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-10" value="영화번호" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-12">
           <mxGeometry y="30" width="200" height="200" as="geometry" />
@@ -126,31 +126,55 @@
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-13" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="500" y="630" width="340" height="410" as="geometry" />
+          <mxGeometry x="560" y="640" width="650" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-39" value="" style="group" vertex="1" connectable="0" parent="7LW9kN1yhtRbwXCHtq7O-13">
+          <mxGeometry x="20" y="50" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-25" value="배우번호" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-39">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-26" value="배우명" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-25">
+          <mxGeometry x="60" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-27" value="배우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-39">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-40" value="" style="group" vertex="1" connectable="0" parent="7LW9kN1yhtRbwXCHtq7O-13">
+          <mxGeometry x="250" y="50" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-41" value="등급 번호" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-40">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-42" value="등급명" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-41">
+          <mxGeometry x="60" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-43" value="등급" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-40">
+          <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-14" value="장르번호" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-13">
-          <mxGeometry y="30" width="180" height="70" as="geometry" />
+          <mxGeometry x="-200" y="80" width="180" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-20" value="장르명" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-14">
           <mxGeometry x="60" y="30" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-15" value="장르" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-13">
-          <mxGeometry width="60" height="30" as="geometry" />
+          <mxGeometry x="-200" y="50" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LW9kN1yhtRbwXCHtq7O-24" value="" style="group" vertex="1" connectable="0" parent="7LW9kN1yhtRbwXCHtq7O-13">
-          <mxGeometry x="140" y="180" width="200" height="230" as="geometry" />
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-44" value="" style="group" vertex="1" connectable="0" parent="7LW9kN1yhtRbwXCHtq7O-13">
+          <mxGeometry x="470" y="50" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7LW9kN1yhtRbwXCHtq7O-25" value="장르번호" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-24">
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-45" value="감독 번호" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-44">
           <mxGeometry y="30" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7LW9kN1yhtRbwXCHtq7O-26" value="장르명" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-25">
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-46" value="감독명" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-45">
           <mxGeometry x="60" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7LW9kN1yhtRbwXCHtq7O-27" value="장르" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-24">
+        <mxCell id="7LW9kN1yhtRbwXCHtq7O-47" value="감독" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-44">
           <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="850" y="610" width="200" height="230" as="geometry" />
+          <mxGeometry x="840" y="360" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="7LW9kN1yhtRbwXCHtq7O-17" value="아이디" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7LW9kN1yhtRbwXCHtq7O-16">
           <mxGeometry y="30" width="200" height="200" as="geometry" />
